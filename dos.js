@@ -73,3 +73,14 @@
 // Be careful using large JSON objects because JSON.parse() and JSON.stringify() will cause a slow down if ojects are too big
 
 // Don't use too complex regular expression e.g. nested quantifiers or back references because again, like large JSON objects, it can take a long time to process and block the event loop.
+
+// See the Event-loop file for an applied event loop demonstration
+
+////////////////////////////////////
+// Section 34 - Event-driven architecture
+
+// Node.js uses event-driven architecture
+
+// The 'Observer Pattern' utilizes an Event emitter and an Event Listener, once heard then a call is made to an attached callback function e.g. a server waits for a request and then executes a callback function.
+
+//
